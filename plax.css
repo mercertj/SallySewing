@@ -1,0 +1,99 @@
+.container-fluid {
+    /*max-width: 90%;*/
+    margin: 0 auto;
+    background: ghostwhite;
+    font-size: 24px;
+    padding: 25px;
+}
+.logo {
+	max-width: 32px;
+    max-height: 32px;
+
+}
+
+.jumbotron {
+    background-image: url("https://images.pexels.com/photos/416717/pexels-photo-416717.jpeg");
+    min-height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+/*.parallax-window {
+    min-height: 500px;
+    background: transparent;
+    padding: 100px 35px;
+}*/
+
+.parallax-window {
+    /* The image used */
+    background-image: url("https://images.pexels.com/photos/161557/sports-fitness-body-building-iron-161557.jpeg?w=940&h=650&auto=compress&cs=tinysrgb");
+    padding: 100px 35px;
+
+    /* Set a specific height */
+    min-height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+}
+
+.h2, h2 {
+	font-family: 'Fjalla One', sans-serif !important
+
+}
+
+.colCol {
+    text-align: center;
+    color: royalblue !important;
+}
+
+h1.title {
+    color: black;
+    -webkit-text-fill-color: ghostwhite;
+    /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: black;
+    font-family: 'Rammetto One', cursive;
+}
+
+.smtitle {
+    color: yellow;
+    font-family: 'Rammetto One', cursive;
+}
+
+p {
+    font-size: 18px;
+    text-align: center;
+}
+
+.col-md-6 {
+
+    text-align: center;
+}
+
+#centertitle {
+    color: purple;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+#signup {
+	margin: auto;
+	}
+
+#smalltitle {
+	font-family: 'Rammetto One', cursive;
+	 -webkit-text-fill-color:  ghostwhite;
+    /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 2.5px;
+    -webkit-text-stroke-color: #14141f;
+    
+    padding: 20px;
+}
